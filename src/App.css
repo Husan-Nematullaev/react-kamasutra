@@ -1,0 +1,31 @@
+.wrapper {
+  display: grid;
+  width: 1140px;
+  margin: 0 auto;
+  grid-template-areas:
+    "header header"
+    "nav content";
+  grid-template-rows: 60px 1fr;
+      grid-template-columns: 2fr 10fr;
+      grid-gap: 15px;
+}
+
+.header {
+  grid-area: header;
+  background-color: aqua;
+}
+
+.header img {
+  width: 20px;
+}
+
+.nav {
+  grid-area: nav;
+  background-color: aquamarine;
+}
+
+.content {
+  grid-area: content;
+  background-color: green;
+}
+
